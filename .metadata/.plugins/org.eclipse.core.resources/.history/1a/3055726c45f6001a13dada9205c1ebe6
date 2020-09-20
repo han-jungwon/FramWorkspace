@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN " "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!-- mapper의 네임스페이스를 먼저 지정해주자 -->
+<mapper namespace="memberMapper">
+  
+  <!-- 
+  	id : 외부(DAO)에서 참조하기 위한 쿼리문의 고유 아이디
+  	parameterType : 내부로 받을 객체
+  	resultType : 쿼리 실행 후 조회된 결과(ResultSet)을 자바에서 사용되게끔 담게 되는 객체
+  	
+  	쿼리문은 기본적으로 preparedStatement이다.
+  	?(위치홀더) 대신 직접 파라미터로 전달받은 객체의 값을 꺼낼때 #{필드명}으로 값을 꺼낸다.
+  	
+  	그리고 여러줄로 줄바꿈 문자를 섞어서 사용도 가능하다.
+  	단, 문장 마침을 나타내는 세미콜론은 여기서도 !!!!역시나 !!!!에러를 발생시킨다.
+  	
+  	
+  	
+  
+  
+  
+  
+  
+   -->
+  
+  
+  
+  
+  
+  
+  <select id="test" parameterType="com.kh.memeber.model.vo.Member"
+  					resultType="com.kh.member.model.vo.Member">
+  
+  	SELECT *
+  	FROM MEMBER
+  	WHERE USER_ID = #{ userId }
+  	AND USER_PWD = #{userPwd}
+  
+  </select>
+  
+  
+  
+  
+</mapper>

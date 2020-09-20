@@ -1,0 +1,11 @@
+package com.kh.board.model.service;
+
+public class BoardServiceImpl implements BoardService{
+	
+	// 1_1. 게시판 목록 수 조회용 메소드
+	int getListCount();
+	
+	// 1_2. 페이징 처리 된 게시판 목록 조회용 메소드
+	ArrayList<Board> selectBoardList(PageInfo pi);
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.kh.member.model.dao.MemberDao"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="com.kh.member.model.vo.Member"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="com.kh.common.Template"/>
+<fullyQualifiedTypeName name="com.kh.board.model.vo.SearchCondition"/>
+<fullyQualifiedTypeName name="com.kh.common.Pagination"/>
+</qualifiedTypeNameHistroy>

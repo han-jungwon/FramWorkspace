@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\framWorkspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3471386894.index
+3468549119.index
+3553433182.index
+2418762334.index
+986440283.index
+119805402.index

@@ -1,0 +1,31 @@
+package com.kh.board.model.dao;
+
+import java.util.ArrayList;
+
+import org.apache.ibatis.session.SqlSession;
+
+import com.kh.board.model.vo.Board;
+import com.kh.board.model.vo.PageInfo;
+
+public class BoardDao {
+
+	public int getListCount(SqlSession session) {
+
+		int listCount = session.selectOne("boardMapper.selectListCount");
+		System.out.println(listCount);
+		return listCount;
+	}
+
+	public ArrayList<Board> selectBoardList(SqlSession session, PageInfo pi) {
+		// 게시글 목록을 담을 변수 선언
+		ArrayList<Board> list = null;
+		
+	
+		
+		
+		return list;
+		
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.kh.board.model.dao;
+
+import java.util.ArrayList;
+
+import org.apache.ibatis.session.SqlSession;
+
+import com.kh.board.model.vo.Board;
+import com.kh.board.model.vo.PageInfo;
+
+public class BoardDao {
+
+	public int getListCount(SqlSession session) {
+
+		int listCount = session.selectOne("boardMapper.selectListCount");
+		System.out.println(listCount);
+		return listCount;
+	}
+
+	public ArrayList<Board> selectBoardList(SqlSession session, PageInfo pi) {
+		
+		
+		
+		return null;
+		
+		
+	}
+
+}

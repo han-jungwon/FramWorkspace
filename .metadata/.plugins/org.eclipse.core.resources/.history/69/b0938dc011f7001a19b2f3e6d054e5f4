@@ -1,0 +1,23 @@
+package com.kh.board.model.service;
+
+import java.util.ArrayList;
+
+import com.kh.board.model.vo.Board;
+import com.kh.board.model.vo.PageInfo;
+
+public class BoardServiceImpl implements BoardService{
+
+	@Override
+	public int getListCount() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public ArrayList<Board> selectBoardList(PageInfo pi) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

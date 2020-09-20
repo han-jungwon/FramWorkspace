@@ -1,0 +1,14 @@
+package com.kh.common;
+
+import com.kh.board.model.vo.PageInfo;
+
+public class Pagination {
+	public static PageInfo getPageInfo(int currentPage, int listCount) {
+		// 페이지 정보를 담아줄 PageInfo 참조변수 선언
+		PageInfo pi = null;
+		
+		return pi;
+	}
+	
+	
+}

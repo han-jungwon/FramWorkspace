@@ -1,0 +1,11 @@
+package com.kh.common;
+
+import com.kh.board.model.vo.PageInfo;
+
+public class Pagination {
+	public static PageInfo getPageInfo(int currentPage, int listCount) {
+		
+	}
+	
+	
+}

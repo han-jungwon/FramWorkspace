@@ -1,0 +1,23 @@
+package com.kh.member.model.service;
+
+import com.kh.member.model.vo.Member;
+
+public class MemberServiceImpl implements MemberService{
+	// MemberSeervice를 실체화(implements)하게 되면
+	// MemberService 인터페이스에 있는 추상메소드를 여기서 구현시켜줘야 한다.
+	
+	
+	@Override
+	public Member selectMember(Member mem) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+
+
+	
+	
+	
+
+}

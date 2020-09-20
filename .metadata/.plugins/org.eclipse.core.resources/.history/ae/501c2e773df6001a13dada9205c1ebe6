@@ -1,0 +1,26 @@
+package com.kh.common;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+
+public class Template {
+	
+	public static SqlSession getSqlSession() {
+		// sqlSession 객체를 반환하기 위한 변수 선언
+		SqlSession session = null;
+		
+		InputStream stream;
+		
+		try {
+			stream = Resources.getResourceAsStream("/mybatis-config.xml");
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	return session;
+
+}
